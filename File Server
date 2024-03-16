@@ -1,0 +1,2 @@
+                                  Check user session
+Get-SmbOpenFile|select ClientUserName,ClientComputerName,Path,SessionID | Where-Object {$_.Path -Like “K:\2.Duan\79.FengMiao1\01.PTSCMC\1.02.Engineering\1.2.2.Detailed Eng\1.ISC\5.PRO-Process\DWG-Drawings"}
